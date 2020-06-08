@@ -1,0 +1,9 @@
+@Library('shared-lib') _
+//BUILD_APP_TYPE = [java, node, nodejd]
+/*
+Pipeline Flux:
+<Build>
+*/
+cvortexPipeline{
+    BUILD_APP_TYPE = "java"
+}
